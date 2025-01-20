@@ -1,6 +1,15 @@
 #include <iostream>
 
-class Car{};
+class Car {
+	public:
+	Car();
+	double 	X;
+	int 	P;
+	double 	V;
+	
+};
+
+Car::Car() {}
 
 main () {
 	using namespace std;
